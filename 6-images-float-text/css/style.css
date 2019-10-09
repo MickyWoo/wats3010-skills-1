@@ -1,0 +1,24 @@
+.wrapped{
+    width: 25%;
+    text-align: left;
+    margin: 1rem;
+    height: auto;
+
+}
+ .wrapped img{
+    display: block;
+    float: left;
+    width: 150px;
+    height: auto;
+    padding: 5px;
+}
+
+/*  clear fix trick allows text to wrap around the img and curve*/
+
+.wrapped:after {
+    content: " "; 
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }

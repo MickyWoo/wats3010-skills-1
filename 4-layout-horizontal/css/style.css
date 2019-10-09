@@ -1,0 +1,90 @@
+/* "nav" space "ul" is so it read the ul as a sub */
+nav ul {
+    background-color: lightgray;
+    /* "list-style" removes bullet points into desired choice*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*use overflow hidden to clear float*/
+    overflow: hidden;
+    }
+
+    nav li {
+        /* "float" tag created horizontal listing of items*/
+        float: left;
+      }
+
+nav li a {
+  display: block;
+  padding: 10px;
+  /* allows factor when you click on link it changes color
+  but it setting that to just black */
+  color: black;
+  background-color: #dddddd;
+  text-decoration: none;
+}
+
+/* allows for color change when hoving over area*/
+nav a:hover {
+    background-color: aqua;
+  }
+
+
+  nav li .active {
+    background-color: black;
+    color: white;
+  }
+
+/* social link*/
+
+/* because its .social-links you would expect a class indicator
+so i have to create class= "social-link" in the ul area*/
+
+  ul.social-links {
+    list-style-type: none;
+    }
+
+    .social-links li {
+        display: inline-block;
+        width: 5rem;
+        background-color: lightblue;
+        border-radius:10px;
+        text-align: center;
+      }
+      .social-links li:hover {
+        background-color: gray;
+      }
+
+      /* social links selectin the (a) anchor */
+      .social-links a {
+        color: black;
+        text-decoration: none;
+      }
+
+      /* hovering the anchor tag color change*/
+      .social-links a:hover {
+        color: white;
+      }
+
+
+/* footer positinging */
+
+
+      /* absolute positioning, must be out of container*/
+      footer {
+        height: 4rem;
+        position: relative;
+        background-color: lightgray;
+      }
+
+      
+      .align-left {
+        position: absolute;
+        left: 2%;
+        top: 45%;
+        }
+        
+        .align-right {
+        position: absolute;
+        right: 2%;
+        top: 

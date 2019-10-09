@@ -1,0 +1,48 @@
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    /* border collapse set to
+     separate leaves a gap between cells int he table and border spacing sets it to 10 pixels*/
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+
+  .row {
+    display: table-row;
+  }
+  .col {
+    display: table-cell;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  #camel-img {
+
+    /* "../"is because you have to go UP from > style.css ( which is where #camel-img is reading)
+     And then down to "images" FOLDER to find the camel picture*/
+
+    background: url("../images/camel.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+  #cayote-img {
+    background: url("../images/cayote.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+
+  .col p {
+    padding: 20px 30px;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    text-align: center;
+  }

@@ -27,10 +27,8 @@ figcaption{
     margin: 0 auto;
     text-align: center;
     
-
 }
-
-img{
+ img{
     border-radius: 10px;
     border: 10px solid black;
     box-sizing: border-box;
